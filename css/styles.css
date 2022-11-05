@@ -1,0 +1,49 @@
+body {
+  background-color: #DBDFFD;
+}
+
+hr {
+  border-style: none;
+  background-color: #DBDFFD;
+  width: 5%;
+  border-top: 5px dotted gray;
+}
+
+h1 {
+  color: #646FD4;
+}
+
+h3 {
+  color: #646FD4;
+}
+
+.image-cropper {
+  max-width: 200px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10%;
+  position: relative;
+  display: flex;
+}
+
+.image-cropper img {
+
+  height: auto;
+  width: 100%;
+  margin: 0 0 -40% 0%;
+
+}
+
+.swap-image {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.swap-image:hover {
+  src: "images/me-budapest.jpg";
+  width: 120%;
+  height: auto;
+  margin-left: -20px;
+  opacity: 1;
+}
